@@ -1,0 +1,31 @@
+{
+  "name": "microbitstash",
+  "version": "1.0.0",
+  "description": "JD's Micro:Bit Stash. Crazy project files and various tools.",
+  "main": "./js/scripts.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JD-RD/MicroBitStash.git"
+  },
+  "keywords": [
+    "microbit"
+  ],
+  "author": "jd-dev",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JD-RD/MicroBitStash/issues"
+  },
+  "homepage": "https://github.com/JD-RD/MicroBitStash#readme",
+  "dependencies": {
+    "serialport": "^7.1.5",
+    "ws": "^7.1.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.5.5",
+    "@babel/preset-env": "^7.5.5",
+    "@babel/register": "^7.5.5"
+  }
+}
